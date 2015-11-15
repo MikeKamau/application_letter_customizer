@@ -4,7 +4,7 @@ The purpose of this script is to customize the application letter template, by r
 
 PREREQUISITES
 =============
-To run the script you must have the python and the python-docx module installed, this can be installed using pip.
+To run the script you must have python and the python-docx module installed, this can be installed using pip.
 
 pip install python-docx
 
@@ -12,7 +12,7 @@ USAGE
 ======
 Before running the python script, open the document template and replace the [Enter your name here] placeholder with your name, it's best edited here as I created the script to be used by a single person in mind, and hence the name will remain constant accross application letters.
 
-To run the script you must specifity the positon being applied for suing the "-p" option and optionally the organization you're applying to using the "-o" option e.g.
+To run the script you must specify the positon being applied for using the "-p" option and optionally the organization you're applying to using the "-o" option e.g.
 
 python application.py -p "Diabolical Ninja"
 
